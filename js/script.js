@@ -44,7 +44,7 @@ const showProducts = products => {
           <img src="${product.strDrinkThumb}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${product.strDrink}</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">${product.strInstructions.slice(0,150)}</p>
           </div>
         </div>
         `;
